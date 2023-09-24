@@ -25,9 +25,10 @@
 		<sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
                 <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
 
-		<sonar.coverage.jacoco.xmlReportPaths>${project.build.directory}/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
-                <sonar.jacoco.reportPath>${project.basedir}/../target/jacoco.exec</sonar.jacoco.reportPath>
-		<sonar.tests>src/test/java</sonar.tests>
+		<sonar.coverage.jacoco.xmlReportPaths>/root/mvn-standlone-application/target/my-reports/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
+                <sonar.jacoco.reportPath>/root/mvn-standlone-application/target/jacoco.exec</sonar.jacoco.reportPath>
+		
+		<sonar.tests>/root/mvn-standlone-application/src/test/java/com/mt/sample/test</sonar.tests>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>11</maven.compiler.source>
                 <maven.compiler.target>11</maven.compiler.target>
